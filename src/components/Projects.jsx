@@ -18,12 +18,9 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod,
-          aspernatur! Facilis veniam, quisquam est non doloribus cupiditate
-          minima, dolor corrupti perspiciatis ea sunt ducimus accusamus quos
-          beatae nemo animi? Necessitatibus esse accusamus commodi facere ea ipsum
-          labore quaerat, aut accusantium veniam, totam quae temporibus optio
-          explicabo veritatis sapiente beatae libero.
+          Take your time to explore how I aim to achieve the perfect blend between aesthetics and functionality
+           by converting ideas into code iteratively, and continuously refining the final product until it meets
+            or surpasses expectations. .
         </motion.p>
       </div>
 

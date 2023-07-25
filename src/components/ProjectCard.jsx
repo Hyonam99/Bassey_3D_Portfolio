@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import { github } from "../assets";
@@ -16,9 +15,9 @@ const ProjectCard = ({
     <motion.div
       variants={fadeIn("up", "spring", 0.5 * index, 0.75)}
     >
-      <Tilt
+      <section
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-        options={{ max: 45, scale: 1, speed: 450 }}
+        // options={{ max: 45, scale: 1, speed: 450 }}
       >
         <div className="relative w-full h-[260px]">
           <img
@@ -53,7 +52,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      </section>
     </motion.div>
   );
 };

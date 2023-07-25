@@ -19,12 +19,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod,
-        aspernatur! Facilis veniam, quisquam est non doloribus cupiditate
-        minima, dolor corrupti perspiciatis ea sunt ducimus accusamus quos
-        beatae nemo animi? Necessitatibus esse accusamus commodi facere ea ipsum
-        labore quaerat, aut accusantium veniam, totam quae temporibus optio
-        explicabo veritatis sapiente beatae libero.
+        I am a dedicated and talented Frontend Developer with a creative flare for creating visually appealing web experiences. 
+        Proficient in HTML, CSS, JavaScript, and Typescript, I specialize at transforming business designs into dynamic and
+         responsive web apps using frameworks such as React and Next.js
+        My unquenchable desire for constant learning and adaptability to developing technologies drives
+         me to make a significant influence in the tech business and also ensure elegant and efficient solutions to difficulties.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap justify-evenly gap-10">

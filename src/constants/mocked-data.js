@@ -14,12 +14,12 @@ import {
   git,
   figma,
   docker,
-  meta,
   tesla,
   carrent,
-  jobit,
-  tripguide,
+  maesan,
   threejs,
+  cryptoApp,
+  bankApp
 } from "../assets";
 
 export const navLinks = [
@@ -43,15 +43,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web App Developer",
     icon: web,
   },
   {
-    title: "UI/UX Designer",
+    title: "Web Site Developer",
     icon: mobile,
   },
   {
-    title: "3D Web app",
+    title: "Software developer",
     icon: creator,
   },
 ];
@@ -131,7 +131,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Code Boulevard",
-    icon: meta,
+    icon: tesla,
     iconBg: "#E6DEDD",
     date: "Apr 2023 - Present",
     points: [
@@ -171,6 +171,48 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Charity Foundation",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: maesan,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Crypto news app",
+    description:
+      "Web application that enables users to search for details on crypto currencies openings, view price changes over a time period, and price chart analysis.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Antd-UI library",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cryptoApp,
+    source_code_link: "https://github.com/",
+  },
+  {
     name: "Car Rent",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -192,9 +234,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Ecentric Bank app",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web site landing page that depicts a modern web3 bank application.",
     tags: [
       {
         name: "react",
@@ -205,32 +247,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: bankApp,
     source_code_link: "https://github.com/",
   },
 ];

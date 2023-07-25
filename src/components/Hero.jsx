@@ -1,12 +1,12 @@
-import { motion } from "framer-motion";
-import { ComputersCanvas } from "./canvas";
+// import { motion } from "framer-motion";
+// import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
 
 const Hero = () => {
 
   return (
     
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-[350px] mx-auto">
       <div
         className={`${styles.paddingX} inset-0 absolute top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
@@ -21,14 +21,14 @@ const Hero = () => {
           </h1>
           <p>
             I develop user centric web apps, <br className="sm:block hidden" />{" "}
-            web sites and 3D web-visuals
+            and web sites
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
-      <div className="absolute w-full xs:bottom-8 bottom-24 flex justify-center items-center">
+      {/* <div className="absolute w-full xs:bottom-8 bottom-24 flex justify-center items-center">
         <a href="#about">
           <div className="w-[24px] h-[54px] rounded-3xl border-2 border-secondary flex justify-center items-start p-2">
             <motion.div
@@ -42,7 +42,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
