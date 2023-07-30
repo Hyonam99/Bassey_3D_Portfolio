@@ -130,7 +130,7 @@ const projects = [
   {
     name: "Charity Foundation",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to make donations to a charitable cause, view activities carried out by the foundation, and read health blogs.",
     tags: [
       {
         name: "react",
