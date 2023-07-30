@@ -9,17 +9,13 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  tesla,
-  carrent,
   maesan,
-  threejs,
   cryptoApp,
-  bankApp
+  bankApp,
+  nextjs,
+  evergreen,
+  jest,
+  chakra
 } from "../assets";
 
 export const navLinks = [
@@ -79,7 +75,7 @@ const technologies = [
   },
   {
     name: "Next JS",
-    icon: reactjs,
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
@@ -91,27 +87,15 @@ const technologies = [
   },
   {
     name: "Chakra UI",
-    icon: nodejs,
+    icon: chakra,
   },
   {
     name: "Evergreen UI",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "Git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
+    icon: evergreen,
   },
   {
     name: "Jest & RTL",
-    icon: docker,
+    icon: jest,
   },
 ];
 
@@ -119,53 +103,26 @@ const experiences = [
   {
     title: "Web Developer Intern",
     company_name: "TiideLab",
-    icon: tesla,
+    icon: javascript,
     iconBg: "#E6DEDD",
     date: "Mar 2022 - Dec 2022",
     points: [
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
       "Collaborated with backend devs to build a crowdfunding platform",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in user research and analysis",
     ],
   },
   {
     title: "Frontend Developer",
     company_name: "Code Boulevard",
-    icon: tesla,
+    icon: typescript,
     iconBg: "#E6DEDD",
-    date: "Apr 2023 - Present",
+    date: "Apr 2023",
     points: [
       "Implementing responsive design and ensuring cross-browser compatibility using evergreen-UI, SCSS, Next.Js and TypeScript",
       "Participating in code reviews, maintenance and code refactoring ",
       "Carried out unit testing per implementation of components and features for optimal performance, using React testing Library and Jest",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -180,16 +137,21 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javaScript",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "chakra-UI",
+        color: "blue-text-gradient",
+      },
     ],
     image: maesan,
     source_code_link: "https://github.com/",
+    live_link: "https://maesan-foundation.vercel.app/",
   },
   {
     name: "Crypto news app",
@@ -205,33 +167,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Antd-UI library",
+        name: "JavaScript",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Antd-UI",
+        color: "blue-text-gradient",
       },
     ],
     image: cryptoApp,
     source_code_link: "https://github.com/",
-  },
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    live_link: "https://bh-crypto-app.vercel.app/",
   },
   {
     name: "Ecentric Bank app",
@@ -253,7 +199,8 @@ const projects = [
     ],
     image: bankApp,
     source_code_link: "https://github.com/",
+    live_link: "https://bh-bank-app.vercel.app/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
-import { github } from "../assets";
+import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
 
 const ProjectCard = ({
   index,
@@ -10,13 +10,14 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link
 }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", 0.5 * index, 0.75)}
     >
       <section
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[481px]"
         // options={{ max: 45, scale: 1, speed: 450 }}
       >
         <div className="relative w-full h-[260px]">
@@ -25,18 +26,22 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end mt-3 mr-3 card-img_hover">
+          <div className="absolute inset-0 flex flex-col justify-start items-end mt-3 mr-3 card-img_hover gap-1">
             <div
               onClick={() => {
                 window.open(source_code_link, "blank");
               }}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient w-9 h-9 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img
-              src={github}
-              alt={name}
-              className="w-1/2 h-1/2 object-contain"
-            />
+            <AiOutlineGithub size={24}/>
+            </div>
+            <div
+              onClick={() => {
+                window.open(live_link, "blank");
+              }}
+              className="black-gradient w-9 h-9 rounded-full flex justify-center items-center cursor-pointer"
+            >
+            <AiOutlineLink size={24}/>
             </div>
           </div>
         </div>

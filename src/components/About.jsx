@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { services } from "../constants/mocked-data";
+// import { services } from "../constants/mocked-data";
 import { fadeIn, textVariant } from "../utils/motion";
 import LayoutWrapper from '../Layout/LayoutWrapper';
-import ServiceCard from "./ServiceCard";
+// import ServiceCard from "./ServiceCard";
 
 const About = () => {
   
@@ -26,11 +25,11 @@ const About = () => {
          me to make a significant influence in the tech business and also ensure elegant and efficient solutions to difficulties.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap justify-evenly gap-10">
+      {/* <div className="mt-20 flex flex-wrap justify-evenly gap-10">
         {services.map((service, i) => (
           <ServiceCard key={service.title} index={i} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
