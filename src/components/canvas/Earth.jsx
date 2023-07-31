@@ -8,7 +8,7 @@ const Earth = () => {
 	const earth = useGLTF("../planet/scene.gltf");
 	return (
 		<mesh>
-			<primitive object={earth.scene} scale={2} position-y={0} />
+			<primitive object={earth.scene} scale={2.6} position-y={0} />
 		</mesh>
 	);
 };
