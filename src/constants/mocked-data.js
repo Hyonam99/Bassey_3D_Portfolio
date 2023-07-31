@@ -15,7 +15,8 @@ import {
   nextjs,
   evergreen,
   jest,
-  chakra
+  chakra,
+  altruFunds
 } from "../assets";
 
 export const navLinks = [
@@ -180,6 +181,28 @@ const projects = [
     live_link: "https://bh-crypto-app.vercel.app/",
   },
   {
+    name: "FundRaising app",
+    description:
+      "Web application that enables users to seek funds through donation, by creating a campaign, and interested individuals can make donations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chakra UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: altruFunds,
+    source_code_link: "https://github.com/",
+    live_link: "https://altru-funds-react-fe.vercel.app/",
+  },
+  {
     name: "Ecentric Bank app",
     description:
       "Web site landing page that depicts a modern web3 bank application.",
@@ -198,7 +221,7 @@ const projects = [
       },
     ],
     image: bankApp,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Hyonam99/bank_app",
     live_link: "https://bh-bank-app.vercel.app/",
   },
 ];

@@ -17,14 +17,14 @@ const ProjectCard = ({
       variants={fadeIn("up", "spring", 0.5 * index, 0.75)}
     >
       <section
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[481px]"
+        className="bg-tertiary p-5 rounded-2xl sm:w-full md:w-[346px] min-h-[482px]"
         // options={{ max: 45, scale: 1, speed: 450 }}
       >
-        <div className="relative w-full h-[260px]">
+        <div className="relative w-full h-[240px]">
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl object-center"
           />
           <div className="absolute inset-0 flex flex-col justify-start items-end mt-3 mr-3 card-img_hover gap-1">
             <div
@@ -47,7 +47,7 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-4'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <h3 className='text-white font-bold text-[22px]'>{name}</h3>
           <p className='text-secondary text-[14px] mt-2'>{description}</p>
         </div>
         <div className='mt-4 flex flex-wrap gap-2'>
