@@ -22,6 +22,7 @@ import chakra from './tech/chakra-ui.webp'
 import maesan from './maesan-snippet.png';
 import cryptoApp from "./crypto-snippet.png";
 import bankApp from "./bank-snippet.png";
+import altruFunds from "./altru-funds-snippet.png";
 
 export {
   logo,
@@ -45,5 +46,6 @@ export {
   nextjs,
   evergreen,
   jest,
-  chakra
+  chakra,
+  altruFunds
 };
