@@ -38,6 +38,7 @@ const Contact = () => {
           }
         >
             {({ handleSubmit, getFieldProps, touched, errors }) => (
+          <form
             ref={formRef}
             onSubmit={handleSubmit}
             className="mt-12 flex flex-col gap-8"
