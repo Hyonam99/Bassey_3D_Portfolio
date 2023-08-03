@@ -9,7 +9,6 @@ import { motion } from "framer-motion";
 import { Textarea, Input } from '@chakra-ui/react';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-import { Link } from "react-router-dom";
 
 const Contact = () => {
 
@@ -34,9 +33,11 @@ const Contact = () => {
                 email: Yup.string().email('Invalid email address').required('email is required'),
                 message: Yup.string().required('message is required'),
             })}
-            onSubmit={() => {}}
+            onSubmit={(values) => 
+              window.open(`mailto:victorbassey767@gmail.com?subject=Name: ${values.name}&body=${values.message}`, 'blank')
+          }
         >
-            {({ handleSubmit, getFieldProps, touched, errors, values }) => (
+            {({ handleSubmit, getFieldProps, touched, errors }) => (
           <form
             ref={formRef}
             onSubmit={handleSubmit}
@@ -85,15 +86,13 @@ const Contact = () => {
               {touched.message && errors.message ? (<small className="text-red-600">{errors.message}</small>): null}
             </label>
 
-            <Link to={`mailto:victorbassey767@gmail.com?subject=Name: ${values.name}&body=${values.message}`} className="w-3/5 text-center my-0 mx-auto">
             <button
-              type="button"
-              className="bg-tertiary py-3 px-8 my-0 mx-auto w-full outline-none 
+              type="submit"
+              className="bg-tertiary py-3 px-8 my-0 mx-auto w-3/5 outline-none 
               text-white font-bold shadow-md shadow-primary rounded-xl text-center"
             >
               {loading ? "Sending..." : "Send"}
             </button>
-            </Link>
           </form>
           )}
         </Formik>
