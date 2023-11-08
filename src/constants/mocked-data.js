@@ -16,7 +16,8 @@ import {
   evergreen,
   jest,
   chakra,
-  altruFunds
+  altruFunds,
+  fxfactor
 } from "../assets";
 
 export const navLinks = [
@@ -129,24 +130,50 @@ const experiences = [
 
 const projects = [
   {
+    name: "Forex Website",
+    description:
+      "Web site that allows members of a forex community to gain access to live exchange rates, purchase trading courses, and get updates from the community.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Material-UI",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: fxfactor,
+    source_code_link: "https://github.com/",
+    live_link: "https://fx-factor-demo.vercel.app/",
+  },
+  {
     name: "Charity Foundation",
     description:
       "Web application that enables users to make donations to a charitable cause, view activities carried out by the foundation, and read health blogs.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "javaScript",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "SCSS",
         color: "pink-text-gradient",
       },
       {
-        name: "chakra-UI",
+        name: "Chakra-UI",
         color: "blue-text-gradient",
       },
     ],
@@ -160,20 +187,16 @@ const projects = [
       "Web application that enables users to search for details on crypto currencies openings, view price changes over a time period, and price chart analysis.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
       },
       {
         name: "JavaScript",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "Antd-UI",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: cryptoApp,
@@ -186,11 +209,11 @@ const projects = [
       "Web application that enables users to seek funds through donation, by creating a campaign, and interested individuals can make donations.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "chakra UI",
+        name: "Chakra-UI",
         color: "green-text-gradient",
       },
       {
@@ -208,12 +231,8 @@ const projects = [
       "Web site landing page that depicts a modern web3 bank application.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",

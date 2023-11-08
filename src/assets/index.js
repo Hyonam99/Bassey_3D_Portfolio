@@ -23,6 +23,7 @@ import maesan from './maesan-snippet.png';
 import cryptoApp from "./crypto-snippet.png";
 import bankApp from "./bank-snippet.png";
 import altruFunds from "./altru-funds-snippet.png";
+import fxfactor from "./fx-factor-snippet.png";
 
 export {
   logo,
@@ -47,5 +48,6 @@ export {
   evergreen,
   jest,
   chakra,
-  altruFunds
+  altruFunds,
+  fxfactor
 };
