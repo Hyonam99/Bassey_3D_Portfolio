@@ -1,101 +1,37 @@
 // import React from "react";
-import { useState, useRef } from "react";
-// import emailJs from "@emailjs/browser";
+// import { useState } from "react";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import LayoutWrapper from "../Layout/LayoutWrapper";
 import { slideIn } from "../utils/motion";
 import { motion } from "framer-motion";
-import { Textarea, Input } from '@chakra-ui/react';
-import { Formik } from 'formik';
-import * as Yup from 'yup';
+// import { Input } from '@chakra-ui/react';
+import { MdMailOutline } from "react-icons/md";
+import { BiLogoLinkedinSquare } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
 
-  const formRef = useRef();
 
-  const [loading] = useState(false);
+  // const [loading] = useState(false);
 
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="xl:mt-12 md:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h2 className={styles.sectionHeadText}>Contact.</h2>
-
-        <Formik
-            initialValues={{ name: '', email: '', message: '' }}
-            validationSchema={Yup.object({
-                name: Yup.string().required('name is required'),
-                email: Yup.string().email('Invalid email address').required('email is required'),
-                message: Yup.string().required('message is required'),
-            })}
-            onSubmit={(values) => 
-              window.open(`mailto:victorbassey767@gmail.com?subject=Name: ${values.name}&body=${values.message}`, 'blank')
-          }
-        >
-            {({ handleSubmit, getFieldProps, touched, errors }) => (
-          <form
-            ref={formRef}
-            onSubmit={handleSubmit}
-            className="mt-12 flex flex-col gap-8"
-          >
-            <label className="flex flex-col">
-              <span className="text-white font-medium mb-4">Your Name</span>
-              <Input
-                type="text"
-                name="name"
-                placeholder="Enter your name here..."
-                {...getFieldProps('name')}
-                className="bg-tertiary py-4 px-4 
-                  placeholder:text-secondary text-white 
-                  rounded-lg outline-none border-none font-medium"
-              />
-              {touched.name && errors.name ? (<small className="text-red-600">{errors.name}</small>): null}
-            </label>
-
-            <label className="flex flex-col">
-              <span className="text-white font-medium mb-4">Your Email</span>
-              <Input
-                type="email"
-                name="email"
-                placeholder="Enter your email here..."
-                {...getFieldProps('email')}
-                className="bg-tertiary py-4 px-4 
-                  placeholder:text-secondary text-white 
-                  rounded-lg outline-none border-none font-medium"
-              />
-              {touched.email && errors.email ? (<small className="text-red-600">{errors.email}</small>): null}
-            </label>
-
-            <label className="flex flex-col">
-              <span className="text-white font-medium mb-4">Your Message</span>
-              <Textarea
-                name="message"
-                rows="7"
-                resize='none'
-                placeholder="Enter your message here..."
-                {...getFieldProps('message')}
-                className="bg-tertiary py-4 px-4 
-                  placeholder:text-secondary text-white 
-                  rounded-lg outline-none border-none font-medium"
-              />
-              {touched.message && errors.message ? (<small className="text-red-600">{errors.message}</small>): null}
-            </label>
-
-            <button
-              type="submit"
-              className="bg-tertiary py-3 px-8 my-0 mx-auto w-3/5 outline-none 
-              text-white font-bold shadow-md shadow-primary rounded-xl text-center"
-            >
-              {loading ? "Sending..." : "Send"}
-            </button>
-          </form>
-          )}
-        </Formik>
+          <div className="flex flex-row flex-wrap justify-start gap-6 my-3">
+            <Link to="mailto:victorbassey767@gmail.com" className="rounded-full bg-tertiary w-14 h-14 flex justify-center items-center shadow-sm shadow-secondary">
+              <MdMailOutline className="w-[80%] h-[80%] rounded-full text-secondary"/>
+            </Link>
+            <Link to="https://www.linkedin.com/in/hyonam-bassey-482191207" className="rounded-full bg-tertiary w-14 h-14 flex justify-center items-center shadow-sm shadow-secondary">
+              <BiLogoLinkedinSquare  className="w-[80%] h-[80%] rounded-full text-secondary"/>
+            </Link>
+          </div>
       </motion.div>
 
       <motion.div
