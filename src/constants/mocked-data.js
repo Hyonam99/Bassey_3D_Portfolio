@@ -103,18 +103,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer Intern",
-    company_name: "TiideLab",
-    icon: javascript,
-    iconBg: "#E6DEDD",
-    date: "Mar 2022 - Dec 2022",
-    points: [
-      "Collaborated with backend devs to build a crowdfunding platform",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in user research and analysis",
-    ],
-  },
-  {
     title: "Frontend Developer",
     company_name: "Code Boulevard",
     icon: typescript,
@@ -126,6 +114,18 @@ const experiences = [
       "Carried out unit testing per implementation of components and features for optimal performance, using React testing Library and Jest",
     ],
   },
+  {
+    title: "Web Developer Intern",
+    company_name: "TiideLab",
+    icon: javascript,
+    iconBg: "#E6DEDD",
+    date: "Mar 2022 - Dec 2022",
+    points: [
+      "Collaborated with backend devs to build a crowdfunding platform",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in user research and analysis",
+    ],
+  }
 ];
 
 const projects = [
