@@ -1,20 +1,14 @@
-// import React from "react";
-// import { useState } from "react";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import LayoutWrapper from "../Layout/LayoutWrapper";
 import { slideIn } from "../utils/motion";
 import { motion } from "framer-motion";
-// import { Input } from '@chakra-ui/react';
 import { MdMailOutline } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
 import { BiLogoLinkedinSquare } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
-
-
-  // const [loading] = useState(false);
-
 
   return (
     <div className="xl:mt-12 md:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -30,6 +24,9 @@ const Contact = () => {
             </Link>
             <Link to="https://www.linkedin.com/in/hyonam-bassey-482191207" className="rounded-full bg-tertiary w-14 h-14 flex justify-center items-center shadow-sm shadow-secondary">
               <BiLogoLinkedinSquare  className="w-[80%] h-[80%] rounded-full text-secondary"/>
+            </Link>
+            <Link to="https://github.com/Hyonam99" className="rounded-full bg-tertiary w-14 h-14 flex justify-center items-center shadow-sm shadow-secondary">
+              <FaGithub  className="w-[80%] h-[80%] rounded-full text-secondary"/>
             </Link>
           </div>
       </motion.div>

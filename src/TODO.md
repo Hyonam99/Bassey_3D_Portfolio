@@ -1,6 +1,6 @@
 ## TODO !
 
-1. Add a Testimonial section later, that will show certificates, volunteering roles and others....having an image and a short description
+1. Add a Testimonial section later, that will show certificates, volunteering roles and others....having an image and a short description, it will be in the format of a single accordion with an embeded carousel.
 
 2. Code below will be reused at a later time for a proper mailing integration
 <!-- 

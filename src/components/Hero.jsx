@@ -4,7 +4,7 @@ const Hero = () => {
 
   return (
     
-    <section className="w-full mx-auto bg-hero-pattern bg-cover bg-no-repeat bg-center">
+    <section className="w-full mx-auto">
       <div
         className={`${styles.paddingX} max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >

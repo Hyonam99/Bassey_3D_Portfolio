@@ -23,7 +23,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
           <p className="text-white flex font-bold text-[18px] cursor-pointer">
-            Hyonam Bassey &nbsp;<span className="md:block hidden">| Web dev</span>
+            Hyonam Bassey
           </p>
         </Link>
 
