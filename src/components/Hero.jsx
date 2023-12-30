@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { styles } from "../styles";
 
 const Hero = () => {
@@ -21,16 +22,13 @@ const Hero = () => {
             I develop user centric web apps, <br className="sm:block hidden" />{" "}
             and web sites
           </p>
-          <a 
-            href="\resume\Bassey-Hyonam-Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            download="Bassey-Hyonam_Frontend_Engineer_resume"
-            className="bg-[#1d1836] py-2 px-6 mt-1 mx-auto w-3/5 outline-none 
-              text-white font-bold shadow-md shadow-primary rounded-lg text-center"
+          <Link 
+            to="https://drive.google.com/file/d/1ThRP9R8oAejN4nnaHBZizr4RmAAMHlB8/view?usp=drive_link"
+            className="bg-[#1d1836] py-2 px-6 mt-1 mx-auto w-3/5
+              text-white font-bold rounded-lg text-center"
           >
             Download resume
-          </a>
+          </Link>
         </div>
       </div>
 

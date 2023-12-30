@@ -24,12 +24,6 @@ const About = () => {
         My unquenchable desire for constant learning and adaptability to developing technologies drives
          me to make a significant influence in the tech business and also ensure elegant and efficient solutions to difficulties.
       </motion.p>
-
-      {/* <div className="mt-20 flex flex-wrap justify-evenly gap-10">
-        {services.map((service, i) => (
-          <ServiceCard key={service.title} index={i} {...service} />
-        ))}
-      </div> */}
     </>
   );
 };
