@@ -22,7 +22,9 @@ const Hero = () => {
             and web sites
           </p>
           <a 
-            href="src\assets\resume\Bassey-Hyonam-Resume.pdf"
+            href="\resume\Bassey-Hyonam-Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             download="Bassey-Hyonam_Frontend_Engineer_resume"
             className="bg-[#1d1836] py-2 px-6 mt-1 mx-auto w-3/5 outline-none 
               text-white font-bold shadow-md shadow-primary rounded-lg text-center"
