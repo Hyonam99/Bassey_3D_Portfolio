@@ -17,10 +17,18 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I&#39;m <span className="text-[#915eff]">Hyonam</span>
           </h1>
-          <p>
+          <p className="mb-5">
             I develop user centric web apps, <br className="sm:block hidden" />{" "}
             and web sites
           </p>
+          <a 
+            href="src\assets\resume\Bassey-Hyonam-Resume.pdf"
+            download="Bassey-Hyonam_Frontend_Engineer_resume"
+            className="bg-[#1d1836] py-2 px-6 mt-1 mx-auto w-3/5 outline-none 
+              text-white font-bold shadow-md shadow-primary rounded-lg text-center"
+          >
+            Download resume
+          </a>
         </div>
       </div>
 

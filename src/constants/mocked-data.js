@@ -153,7 +153,7 @@ const projects = [
     ],
     image: fxfactor,
     source_code_link: "https://github.com/",
-    live_link: "https://fx-factor-demo.vercel.app/",
+    live_link: "https://www.thefxfactor.com/",
   },
   {
     name: "Charity Foundation",
