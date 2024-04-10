@@ -179,7 +179,7 @@ const projects = [
     ],
     image: maesan,
     source_code_link: "https://github.com/",
-    live_link: "https://maesan-foundation.vercel.app/",
+    live_link: "https://www.maesanfoundation.com/",
   },
   {
     name: "Crypto news app",
