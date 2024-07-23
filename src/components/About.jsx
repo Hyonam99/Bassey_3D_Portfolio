@@ -18,11 +18,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a dedicated and talented Frontend Developer with a creative flare for creating visually appealing web experiences. 
-        Proficient in HTML, CSS, JavaScript, and Typescript, I specialize at transforming business designs into dynamic and
+        I am a dedicated and talented Frontend Developer with a reative eye for designing appealing websites. 
+        I am Proficient in HTML, CSS, SCSS JavaScript, and Typescript, UI frameworks and I specialize in converting business designs into standard and
          responsive web apps using frameworks such as React and Next.js
-        My unquenchable desire for constant learning and adaptability to developing technologies drives
-         me to make a significant influence in the tech business and also ensure elegant and efficient solutions to difficulties.
+        My desire to constantly learn and adapt to new technologies drives me to make a significant impact in the tech industry while I ensure elegant and efficient solutions to difficulties.
       </motion.p>
     </>
   );

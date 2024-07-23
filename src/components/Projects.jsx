@@ -44,7 +44,7 @@ const Projects = () => {
 					Take your time to explore how I aim to achieve the perfect blend
 					between aesthetics and functionality by converting ideas into code
 					iteratively, and continuously refining the final product until it
-					meets or surpasses expectations. .
+					meets or surpasses expectations.
 				</motion.p>
 			</div>
 

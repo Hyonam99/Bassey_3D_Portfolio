@@ -17,7 +17,8 @@ import {
   jest,
   chakra,
   altruFunds,
-  fxfactor
+  fxfactor,
+  visionwell
 } from "../assets";
 
 export const navLinks = [
@@ -130,9 +131,35 @@ const experiences = [
 
 const projects = [
   {
-    name: "Forex Website",
+    name: "Visionwell",
     description:
-      "Web site that allows members of a forex community to gain access to live exchange rates, purchase trading courses, and get updates from the community.",
+      "E-commerce Web site that allows customers to completely purchase contact lens, and other contact lens accesories. (Still in development)",
+    tags: [
+      {
+        name: "NextJs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Chakra-UI",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: visionwell,
+    source_code_link: "https://github.com/",
+    live_link: "https://www.visionwellng.com/",
+  },
+  {
+    name: "Fx-Factor",
+    description:
+      "Forex Website that allows members of a forex community to gain access to live exchange rates, purchase trading courses, and get updates from the community.",
     tags: [
       {
         name: "React",
@@ -156,9 +183,9 @@ const projects = [
     live_link: "https://www.thefxfactor.com/",
   },
   {
-    name: "Charity Foundation",
+    name: "Maesan Foundation",
     description:
-      "Web application that enables users to make donations to a charitable cause, view activities carried out by the foundation, and read health blogs.",
+      "Charity Foundation Web application that enables users to make donations to a charitable cause, view activities carried out by the foundation, and read health blogs.",
     tags: [
       {
         name: "React",

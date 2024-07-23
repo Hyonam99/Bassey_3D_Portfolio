@@ -24,6 +24,7 @@ import cryptoApp from "./crypto-snippet.png";
 import bankApp from "./bank-snippet.png";
 import altruFunds from "./altru-funds-snippet.png";
 import fxfactor from "./fx-factor-snippet.png";
+import visionwell from "./visionwell-snippet.png";
 
 export {
   logo,
@@ -49,5 +50,6 @@ export {
   jest,
   chakra,
   altruFunds,
-  fxfactor
+  fxfactor,
+  visionwell
 };
