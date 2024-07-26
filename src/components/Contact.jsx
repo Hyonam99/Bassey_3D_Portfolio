@@ -19,13 +19,13 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h2 className={styles.sectionHeadText}>Contact.</h2>
           <div className="flex flex-row flex-wrap justify-start gap-6 my-3">
-            <Link to="mailto:victorbassey767@gmail.com" className="rounded-full bg-tertiary w-14 h-14 flex justify-center items-center shadow-sm shadow-secondary">
+            <Link to="mailto:victorbassey767@gmail.com" target="_blank" className="rounded-full bg-tertiary w-14 h-14 flex justify-center items-center shadow-sm shadow-secondary">
               <MdMailOutline className="w-[80%] h-[80%] rounded-full text-secondary"/>
             </Link>
-            <Link to="https://www.linkedin.com/in/hyonam-bassey-482191207" className="rounded-full bg-tertiary w-14 h-14 flex justify-center items-center shadow-sm shadow-secondary">
+            <Link to="https://www.linkedin.com/in/hyonam-bassey-482191207" target="_blank" className="rounded-full bg-tertiary w-14 h-14 flex justify-center items-center shadow-sm shadow-secondary">
               <BiLogoLinkedinSquare  className="w-[80%] h-[80%] rounded-full text-secondary"/>
             </Link>
-            <Link to="https://github.com/Hyonam99" className="rounded-full bg-tertiary w-14 h-14 flex justify-center items-center shadow-sm shadow-secondary">
+            <Link to="https://github.com/Hyonam99" target="_blank" className="rounded-full bg-tertiary w-14 h-14 flex justify-center items-center shadow-sm shadow-secondary">
               <FaGithub  className="w-[80%] h-[80%] rounded-full text-secondary"/>
             </Link>
           </div>
