@@ -18,7 +18,7 @@ import {
   chakra,
   altruFunds,
   fxfactor,
-  visionwell
+  // visionwell
 } from "../assets";
 
 export const navLinks = [
@@ -130,32 +130,32 @@ const experiences = [
 ];
 
 const projects = [
-  {
-    name: "Visionwell",
-    description:
-      "E-commerce Web site that allows customers to completely purchase contact lens, and other contact lens accesories. (Still in development)",
-    tags: [
-      {
-        name: "NextJs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Chakra-UI",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: visionwell,
-    source_code_link: "https://github.com/Hyonam99",
-    live_link: "https://www.visionwellng.com/",
-  },
+  // {
+  //   name: "Visionwell",
+  //   description:
+  //     "E-commerce Web site that allows customers to completely purchase contact lens, and other contact lens accesories. (Still in development)",
+  //   tags: [
+  //     {
+  //       name: "NextJs",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Typescript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Chakra-UI",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: visionwell,
+  //   source_code_link: "https://github.com/Hyonam99",
+  //   live_link: "https://www.visionwellng.com/",
+  // },
   {
     name: "Fx-Factor",
     description:
