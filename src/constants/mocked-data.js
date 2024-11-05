@@ -18,6 +18,7 @@ import {
   chakra,
   altruFunds,
   fxfactor,
+  carmpus
   // visionwell
 } from "../assets";
 
@@ -130,146 +131,171 @@ const experiences = [
 ];
 
 const projects = [
-  // {
-  //   name: "Visionwell",
-  //   description:
-  //     "E-commerce Web site that allows customers to completely purchase contact lens, and other contact lens accesories. (Still in development)",
-  //   tags: [
-  //     {
-  //       name: "NextJs",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "Typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "Chakra-UI",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: visionwell,
-  //   source_code_link: "https://github.com/Hyonam99",
-  //   live_link: "https://www.visionwellng.com/",
-  // },
-  {
-    name: "Fx-Factor",
-    description:
-      "Forex Website that allows members of a forex community to gain access to live exchange rates, purchase trading courses, and get updates from the community.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "SCSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Material-UI",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: fxfactor,
-    source_code_link: "https://github.com/Hyonam99",
-    live_link: "https://www.thefxfactor.com/",
-  },
-  {
-    name: "Maesan Foundation",
-    description:
-      "Charity Foundation Web application that enables users to make donations to a charitable cause, view activities carried out by the foundation, and read health blogs.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "SCSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Chakra-UI",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: maesan,
-    source_code_link: "https://github.com/Hyonam99",
-    live_link: "https://www.maesanfoundation.com/",
-  },
-  {
-    name: "Crypto news app",
-    description:
-      "Web application that enables users to search for details on crypto currencies openings, view price changes over a time period, and price chart analysis.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Antd-UI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cryptoApp,
-    source_code_link: "https://github.com/Hyonam99",
-    live_link: "https://bh-crypto-app.vercel.app/",
-  },
-  {
-    name: "FundRaising app",
-    description:
-      "Web application that enables users to seek funds through donation, by creating a campaign, and interested individuals can make donations.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Chakra-UI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: altruFunds,
-    source_code_link: "https://github.com/Hyonam99",
-    live_link: "https://altru-funds-react-fe.vercel.app/",
-  },
-  {
-    name: "Ecentric Bank app",
-    description:
-      "Web site landing page that depicts a modern web3 bank application.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bankApp,
-    source_code_link: "https://github.com/Hyonam99/bank_app",
-    live_link: "https://bh-bank-app.vercel.app/",
-  },
+	// {
+	//   name: "Visionwell",
+	//   description:
+	//     "E-commerce Web site that allows customers to completely purchase contact lens, and other contact lens accesories. (Still in development)",
+	//   tags: [
+	//     {
+	//       name: "NextJs",
+	//       color: "orange-text-gradient",
+	//     },
+	//     {
+	//       name: "Typescript",
+	//       color: "green-text-gradient",
+	//     },
+	//     {
+	//       name: "Tailwind",
+	//       color: "pink-text-gradient",
+	//     },
+	//     {
+	//       name: "Chakra-UI",
+	//       color: "blue-text-gradient",
+	//     },
+	//   ],
+	//   image: visionwell,
+	//   source_code_link: "https://github.com/Hyonam99",
+	//   live_link: "https://www.visionwellng.com/",
+	// },
+	{
+		name: "Carmpus",
+		description: "An online learning Hub, that encompasses both Computer Based Test (CBT) and Learning Management System (LMS) features",
+		tags: [
+			{
+				name: "Next.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Typescript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "SCSS",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Evergreen-UI",
+				color: "blue-text-gradient",
+			},
+		],
+		image: carmpus,
+		source_code_link: "https://github.com/Hyonam99",
+		live_link: "https://carmpus.ng/",
+	},
+	{
+		name: "Fx-Factor",
+		description:
+			"Forex Website that allows members of a forex community to gain access to live exchange rates, purchase trading courses, and get updates from the community.",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Typescript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "SCSS",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Material-UI",
+				color: "blue-text-gradient",
+			},
+		],
+		image: fxfactor,
+		source_code_link: "https://github.com/Hyonam99",
+		live_link: "https://www.thefxfactor.com/",
+	},
+	{
+		name: "Maesan Foundation",
+		description:
+			"Charity Foundation Web application that enables users to make donations to a charitable cause, view activities carried out by the foundation, and read health blogs.",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "JavaScript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "SCSS",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Chakra-UI",
+				color: "blue-text-gradient",
+			},
+		],
+		image: maesan,
+		source_code_link: "https://github.com/Hyonam99",
+		live_link: "https://www.maesanfoundation.com/",
+	},
+	{
+		name: "Crypto news app",
+		description:
+			"Web application that enables users to search for details on crypto currencies openings, view price changes over a time period, and price chart analysis.",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "JavaScript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Antd-UI",
+				color: "pink-text-gradient",
+			},
+		],
+		image: cryptoApp,
+		source_code_link: "https://github.com/Hyonam99",
+		live_link: "https://bh-crypto-app.vercel.app/",
+	},
+	{
+		name: "FundRaising app",
+		description:
+			"Web application that enables users to seek funds through donation, by creating a campaign, and interested individuals can make donations.",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Chakra-UI",
+				color: "green-text-gradient",
+			},
+			{
+				name: "JavaScript",
+				color: "pink-text-gradient",
+			},
+		],
+		image: altruFunds,
+		source_code_link: "https://github.com/Hyonam99",
+		live_link: "https://altru-funds-react-fe.vercel.app/",
+	},
+	{
+		name: "Ecentric Bank app",
+		description:
+			"Web site landing page that depicts a modern web3 bank application.",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "pink-text-gradient",
+			},
+		],
+		image: bankApp,
+		source_code_link: "https://github.com/Hyonam99/bank_app",
+		live_link: "https://bh-bank-app.vercel.app/",
+	},
 ];
 
 export { services, technologies, experiences, projects };
