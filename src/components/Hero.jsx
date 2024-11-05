@@ -22,7 +22,7 @@ const Hero = () => {
 						and web sites
 					</p>
 					<Link
-						to="https://drive.google.com/file/d/10cFHDmzSHPwJ2Nw9BIwb1_jtNKbDgMz-/view?usp=drive_link"
+						to="https://drive.google.com/file/d/1UI8xjD2QgTP61V7LDBFWvZHYzVZnmgoc/view?usp=sharing"
 						target="_blank"
 						className="bg-[#1d1836] py-2 px-6 mt-1 mx-auto w-3/5
               text-white font-bold rounded-lg text-center"
