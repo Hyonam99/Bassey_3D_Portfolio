@@ -18,8 +18,8 @@ import {
   chakra,
   altruFunds,
   fxfactor,
-  carmpus
-  // visionwell
+  carmpus,
+  visionwell,
 } from "../assets";
 
 export const navLinks = [
@@ -131,39 +131,40 @@ const experiences = [
 ];
 
 const projects = [
-	// {
-	//   name: "Visionwell",
-	//   description:
-	//     "E-commerce Web site that allows customers to completely purchase contact lens, and other contact lens accesories. (Still in development)",
-	//   tags: [
-	//     {
-	//       name: "NextJs",
-	//       color: "orange-text-gradient",
-	//     },
-	//     {
-	//       name: "Typescript",
-	//       color: "green-text-gradient",
-	//     },
-	//     {
-	//       name: "Tailwind",
-	//       color: "pink-text-gradient",
-	//     },
-	//     {
-	//       name: "Chakra-UI",
-	//       color: "blue-text-gradient",
-	//     },
-	//   ],
-	//   image: visionwell,
-	//   source_code_link: "https://github.com/Hyonam99",
-	//   live_link: "https://www.visionwellng.com/",
-	// },
+	{
+		name: "Visionwell",
+		description:
+			"E-commerce Web app that allows customers to completely and seamless purchase contact lens, contact lens accesories and get delivery in one-go",
+		tags: [
+			{
+				name: "NextJs",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Typescript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Tailwind",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Chakra-UI",
+				color: "blue-text-gradient",
+			},
+		],
+		image: visionwell,
+		source_code_link: "https://github.com/Hyonam99",
+		live_link: "https://oscwell-commerce.vercel.app/",
+	},
 	{
 		name: "Carmpus",
-		description: "An online learning Hub, that encompasses both Computer Based Test (CBT) and Learning Management System (LMS) features",
+		description:
+			"An online learning Hub, that encompasses both Computer Based Test (CBT) and Learning Management System (LMS) features",
 		tags: [
 			{
 				name: "Next.js",
-				color: "blue-text-gradient",
+				color: "orange-text-gradient",
 			},
 			{
 				name: "Typescript",
