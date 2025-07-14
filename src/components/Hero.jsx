@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
 import { styles } from "../styles";
 
 const Hero = () => {
-
-  return (
+	return (
 		<section className="w-full mx-auto">
 			<div
 				className={`${styles.paddingX} max-w-7xl mx-auto flex flex-row items-start gap-5`}
@@ -15,20 +13,35 @@ const Hero = () => {
 
 				<div>
 					<h1 className={`${styles.heroHeadText} text-white`}>
-						Hi, I&#39;m <span className="text-[#915eff]">Hyonam</span>
+						Hi, I&#39;m{" "}
+						<span className="text-[#915eff]">Hyonam</span>
 					</h1>
 					<p className="mb-5">
-						I develop user centric web apps, <br className="sm:block hidden" />{" "}
-						and web sites
+						I develop the best web apps,{" "}
+						<br className="sm:block hidden" /> and web sites
 					</p>
-					<Link
-						to="https://drive.google.com/file/d/1Zc1As_fWbElU3B36ztpA32uKIIlfVUti/view?usp=drive_link"
-						target="_blank"
-						className="bg-[#1d1836] py-2 px-6 mt-1 mx-auto w-3/5
+
+					<div className="flex flex-wrap justify-start gap-4 items-center">
+						<a
+							href="/resume/Bassey-Hyonam-Frontend-Resume.pdf"
+							target="_blank"
+							rel="noreferrer"
+							className="bg-[#1d1836] py-2 px-6 mt-1 w-fit
               text-white font-bold rounded-lg text-center"
-					>
-						Download resume
-					</Link>
+							download
+						>
+							Download resume
+						</a>
+						<a
+							href="/resume/Bassey-Hyonam-Frontend-Resume.pdf"
+							target="_blank"
+							rel="noreferrer"
+							className="bg-[#1d1836] py-2 px-6 mt-1 w-fit
+              text-white font-bold rounded-lg text-center"
+						>
+							View resume
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>

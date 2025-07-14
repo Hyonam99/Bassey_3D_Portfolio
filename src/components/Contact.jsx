@@ -29,6 +29,11 @@ const Contact = () => {
               <FaGithub  className="w-[80%] h-[80%] rounded-full text-secondary"/>
             </Link>
           </div>
+
+          <div className="text-secondary mt-4">
+            <p className="mb-2">victorbassey767@gmail.com</p>
+            <p>08180387593, 07084804237</p>
+          </div>
       </motion.div>
 
       <motion.div

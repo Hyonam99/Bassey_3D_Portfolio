@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{js,jsx}", "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
     extend: {
@@ -23,8 +23,4 @@ export default {
       },
     },
   },
-  plugins: [
-    // eslint-disable-next-line no-undef
-    require('flowbite/plugin')
-  ],
 };

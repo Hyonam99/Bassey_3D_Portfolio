@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-// import { services } from "../constants/mocked-data";
 import { fadeIn, textVariant } from "../utils/motion";
 import LayoutWrapper from "../Layout/LayoutWrapper";
-// import ServiceCard from "./ServiceCard";
 
 const About = () => {
 	return (
@@ -21,10 +19,7 @@ const About = () => {
 				designing responsive and appealing websites, proficient in HTML, CSS,
 				SCSS JavaScript, and Typescript, and UI frameworks. <br />I specialize
 				in converting business designs into standard and optimized web apps
-				using frameworks such as React and Next.js My desire to constantly learn
-				and adapt to new technologies drives me to make a significant impact in
-				the tech industry while I ensure elegant and efficient solutions to
-				difficulties.
+				using frameworks such as React and Next.js.
 			</motion.p>
 		</>
 	);

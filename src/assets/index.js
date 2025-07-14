@@ -26,6 +26,7 @@ import altruFunds from "./altru-funds-snippet.png";
 import fxfactor from "./fx-factor-snippet.png";
 import visionwell from "./visionwell-snippet.png";
 import carmpus from "./carmpus-snippet.png";
+import revamp from "./revamp-snippet.png";
 
 export {
 	logo,
@@ -54,4 +55,5 @@ export {
 	fxfactor,
 	visionwell,
 	carmpus,
+	revamp,
 };
