@@ -17,6 +17,8 @@ import {
 	carmpus,
 	visionwell,
 	revamp,
+	aisha,
+    malariadata
 } from "../assets";
 
 export const navLinks = [
@@ -141,6 +143,32 @@ const experiences = [
 
 const projects = [
 	{
+		name: "Aisha",
+		description:
+			"An online AI health assistant, accessible directly via whatsApp, that provides users with first hand health guide",
+		tags: [
+			{
+				name: "React.js",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Typescript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Tailwind",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Framer-motion",
+				color: "blue-text-gradient",
+			},
+		],
+		image: aisha,
+		source_code_link: "https://github.com/Hyonam99",
+		live_link: "https://aisha.ng/",
+	},
+	{
 		name: "Carmpus",
 		description:
 			"An online learning Hub, that encompasses both Computer Based Test (CBT) and Learning Management System (LMS) features",
@@ -191,6 +219,32 @@ const projects = [
 		image: revamp,
 		source_code_link: "https://github.com/Hyonam99",
 		live_link: "http://revamp.cv/",
+	},
+	{
+		name: "Malaria Data",
+		description:
+			"Point of contact for online malaria data collection and analysis platform that allows users to collect, analyze and visualize malaria data",
+		tags: [
+			{
+				name: "Next.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "React Query",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Typescript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Tailwind",
+				color: "pink-text-gradient",
+			},
+		],
+		image: malariadata,
+		source_code_link: "https://github.com/Hyonam99",
+		live_link: "https://www.malariadata.net/",
 	},
 	{
 		name: "Visionwell",

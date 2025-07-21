@@ -27,6 +27,8 @@ import fxfactor from "./fx-factor-snippet.png";
 import visionwell from "./visionwell-snippet.png";
 import carmpus from "./carmpus-snippet.png";
 import revamp from "./revamp-snippet.png";
+import aisha from "./aisha-snippet.png";
+import malariadata from "./malariadata-snippet.png";
 
 export {
 	logo,
@@ -56,4 +58,6 @@ export {
 	visionwell,
 	carmpus,
 	revamp,
+    aisha,
+    malariadata
 };
