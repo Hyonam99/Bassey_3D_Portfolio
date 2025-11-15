@@ -14,11 +14,11 @@ import {
 	jest,
 	chakra,
 	fxfactor,
-	carmpus,
+	// carmpus,
 	visionwell,
-	revamp,
+	// revamp,
 	aisha,
-    malariadata
+	malariadata,
 } from "../assets";
 
 export const navLinks = [
@@ -120,7 +120,7 @@ const experiences = [
 		company_name: "Code Boulevard",
 		icon: typescript,
 		iconBg: "#E6DEDD",
-		date: "Apr 2023",
+		date: "Apr 2023 - Jan 2025",
 		points: [
 			"Implementing responsive design and ensuring cross-browser compatibility using evergreen-UI, SCSS, Next.Js and TypeScript",
 			"Participating in code reviews, maintenance and code refactoring ",
@@ -168,58 +168,58 @@ const projects = [
 		source_code_link: "https://github.com/Hyonam99",
 		live_link: "https://aisha.ng/",
 	},
-	{
-		name: "Carmpus",
-		description:
-			"An online learning Hub, that encompasses both Computer Based Test (CBT) and Learning Management System (LMS) features",
-		tags: [
-			{
-				name: "Next.js",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "Typescript",
-				color: "green-text-gradient",
-			},
-			{
-				name: "SCSS",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "Evergreen-UI",
-				color: "blue-text-gradient",
-			},
-		],
-		image: carmpus,
-		source_code_link: "https://github.com/Hyonam99",
-		live_link: "https://carmpus.ng/",
-	},
-	{
-		name: "Revamp",
-		description:
-			"Online resume and portfolio builder with ATS scanning and optimizing features",
-		tags: [
-			{
-				name: "React.js",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "React Query",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "Typescript",
-				color: "green-text-gradient",
-			},
-			{
-				name: "Tailwind",
-				color: "pink-text-gradient",
-			},
-		],
-		image: revamp,
-		source_code_link: "https://github.com/Hyonam99",
-		live_link: "http://revamp.cv/",
-	},
+	// {
+	// 	name: "Carmpus",
+	// 	description:
+	// 		"An online learning Hub, that encompasses both Computer Based Test (CBT) and Learning Management System (LMS) features",
+	// 	tags: [
+	// 		{
+	// 			name: "Next.js",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Typescript",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "SCSS",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Evergreen-UI",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 	],
+	// 	image: carmpus,
+	// 	source_code_link: "https://github.com/Hyonam99",
+	// 	live_link: "https://carmpus.ng/",
+	// },
+	// {
+	// 	name: "Revamp",
+	// 	description:
+	// 		"Online resume and portfolio builder with ATS scanning and optimizing features",
+	// 	tags: [
+	// 		{
+	// 			name: "React.js",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "React Query",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Typescript",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Tailwind",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: revamp,
+	// 	source_code_link: "https://github.com/Hyonam99",
+	// 	live_link: "http://revamp.cv/",
+	// },
 	{
 		name: "Malaria Data",
 		description:
