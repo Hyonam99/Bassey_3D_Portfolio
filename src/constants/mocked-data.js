@@ -14,7 +14,7 @@ import {
 	jest,
 	chakra,
 	fxfactor,
-	// carmpus,
+	carmpus,
 	visionwell,
 	// revamp,
 	aisha,
@@ -168,32 +168,32 @@ const projects = [
 		source_code_link: "https://github.com/Hyonam99",
 		live_link: "https://aisha.ng/",
 	},
-	// {
-	// 	name: "Carmpus",
-	// 	description:
-	// 		"An online learning Hub, that encompasses both Computer Based Test (CBT) and Learning Management System (LMS) features",
-	// 	tags: [
-	// 		{
-	// 			name: "Next.js",
-	// 			color: "orange-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Typescript",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "SCSS",
-	// 			color: "pink-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Evergreen-UI",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 	],
-	// 	image: carmpus,
-	// 	source_code_link: "https://github.com/Hyonam99",
-	// 	live_link: "https://carmpus.ng/",
-	// },
+	{
+		name: "Carmpus",
+		description:
+			"An online learning Hub, that encompasses both Computer Based Test (CBT) and Learning Management System (LMS) features",
+		tags: [
+			{
+				name: "Next.js",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Typescript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "SCSS",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Evergreen-UI",
+				color: "blue-text-gradient",
+			},
+		],
+		image: carmpus,
+		source_code_link: "https://github.com/Hyonam99",
+		live_link: "https://carmpus.io/",
+	},
 	// {
 	// 	name: "Revamp",
 	// 	description:

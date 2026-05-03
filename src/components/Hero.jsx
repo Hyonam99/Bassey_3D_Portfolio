@@ -21,7 +21,7 @@ const Hero = () => {
 						<br className="sm:block hidden" /> and web sites
 					</p>
 
-					<div className="flex flex-wrap justify-start gap-4 items-center">
+					{/* <div className="flex flex-wrap justify-start gap-4 items-center">
 						<a
 							href="/resume/Bassey-Hyonam-Frontend-Resume.pdf"
 							target="_blank"
@@ -41,7 +41,7 @@ const Hero = () => {
 						>
 							View resume
 						</a>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>
