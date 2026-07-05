@@ -8,6 +8,7 @@ import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, Grid } from "swiper/modules";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import type { WindowSize } from "../types";
 
 // import styles bundle
 import "swiper/css/bundle";
@@ -15,7 +16,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Projects = () => {
-	const [windowSize, setWindowSize] = useState(getWindowSize());
+	const [windowSize, setWindowSize] = useState<WindowSize>(getWindowSize());
 
 	useEffect(() => {
 		function handleWindowResize() {
@@ -91,7 +92,7 @@ const Projects = () => {
 	);
 };
 
-function getWindowSize() {
+function getWindowSize(): WindowSize {
 	const { innerWidth, innerHeight } = window;
 	return { innerWidth, innerHeight };
 }

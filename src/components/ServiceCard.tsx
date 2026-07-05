@@ -1,12 +1,12 @@
 // import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
+import type { ServiceCardProps } from "../types";
 
-// eslint-disable-next-line react/prop-types
-const ServiceCard = ({ title, icon, index }) => {
+const ServiceCard = ({ title, icon, index }: ServiceCardProps) => {
   return (
-    <section 
-      className="xs:w-[250px] w-full" 
+    <section
+      className="xs:w-[250px] w-full"
       // options={{ max: 45, scale: 1, speed: 450 }}
     >
       <motion.div

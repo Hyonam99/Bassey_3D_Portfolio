@@ -1,7 +1,7 @@
-/* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
+import type { ProjectCardProps } from "../types";
 
 const ProjectCard = ({
 	index,
@@ -11,7 +11,7 @@ const ProjectCard = ({
 	image,
 	source_code_link,
 	live_link,
-}) => {
+}: ProjectCardProps) => {
 	return (
 		<motion.div variants={fadeIn("up", "spring", 0.5 * index, 0.75)}>
 			<section

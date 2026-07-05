@@ -1,5 +1,6 @@
-// eslint-disable-next-line react/prop-types
-const BallCanvas = ({ icon }) => {
+import type { BallCanvasProps } from "../../types";
+
+const BallCanvas = ({ icon }: BallCanvasProps) => {
   return (
     <div className="rounded-full bg-white-100 w-16 h-16 flex justify-center items-center">
       <img

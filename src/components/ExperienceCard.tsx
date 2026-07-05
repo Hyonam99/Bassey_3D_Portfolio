@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -8,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "../constants/mocked-data";
 
 const ExperienceCard = () => (
-  
+
   <VerticalTimeline>
 
     {experiences.map((experience) => (
@@ -50,7 +49,7 @@ const ExperienceCard = () => (
         </ul>
       </VerticalTimelineElement>
     ))}
-    
+
   </VerticalTimeline>
 );
 

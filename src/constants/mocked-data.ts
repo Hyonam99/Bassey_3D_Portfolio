@@ -20,8 +20,15 @@ import {
 	aisha,
 	malariadata,
 } from "../assets";
+import type {
+	NavLink,
+	Service,
+	Technology,
+	ExperienceItem,
+	Project,
+} from "../types";
 
-export const navLinks = [
+export const navLinks: NavLink[] = [
 	{
 		id: "about",
 		title: "About",
@@ -40,7 +47,7 @@ export const navLinks = [
 	},
 ];
 
-const services = [
+const services: Service[] = [
 	{
 		title: "Web App Developer",
 		icon: web,
@@ -55,7 +62,7 @@ const services = [
 	},
 ];
 
-const technologies = [
+const technologies: Technology[] = [
 	{
 		name: "HTML 5",
 		icon: html,
@@ -102,7 +109,7 @@ const technologies = [
 	},
 ];
 
-const experiences = [
+const experiences: ExperienceItem[] = [
 	{
 		title: "Frontend Engineer",
 		company_name: "Sproxil",
@@ -141,7 +148,7 @@ const experiences = [
 	},
 ];
 
-const projects = [
+const projects: Project[] = [
 	{
 		name: "Aisha",
 		description:

@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import { Suspense } from "react";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";

@@ -11,7 +11,7 @@ import {
 } from "./components";
 import { useEffect } from "react";
 
-const scrollToHash = (hash) => {
+const scrollToHash = (hash: string) => {
 	const id = hash.replace("#", "");
 	const el = document.getElementById(id);
 	if (el) {

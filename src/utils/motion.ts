@@ -1,4 +1,7 @@
-export const textVariant = (delay) => {
+import type { Variants } from "framer-motion";
+import type { MotionDirection, MotionTransitionType } from "../types";
+
+export const textVariant = (delay?: number): Variants => {
   return {
     hidden: {
       y: -50,
@@ -16,7 +19,12 @@ export const textVariant = (delay) => {
   };
 };
 
-export const fadeIn = (direction, type, delay, duration) => {
+export const fadeIn = (
+  direction: MotionDirection,
+  type: MotionTransitionType,
+  delay: number,
+  duration: number
+): Variants => {
   return {
     hidden: {
       x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
@@ -28,7 +36,7 @@ export const fadeIn = (direction, type, delay, duration) => {
       y: 0,
       opacity: 1,
       transition: {
-        type: type,
+        ...(type !== "" && { type }),
         delay: delay,
         duration: duration,
         ease: "easeOut",
@@ -37,7 +45,7 @@ export const fadeIn = (direction, type, delay, duration) => {
   };
 };
 
-export const zoomIn = (delay, duration) => {
+export const zoomIn = (delay: number, duration: number): Variants => {
   return {
     hidden: {
       scale: 0,
@@ -56,7 +64,12 @@ export const zoomIn = (delay, duration) => {
   };
 };
 
-export const slideIn = (direction, type, delay, duration) => {
+export const slideIn = (
+  direction: MotionDirection,
+  type: MotionTransitionType,
+  delay: number,
+  duration: number
+): Variants => {
   return {
     hidden: {
       x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
@@ -66,7 +79,7 @@ export const slideIn = (direction, type, delay, duration) => {
       x: 0,
       y: 0,
       transition: {
-        type: type,
+        ...(type !== "" && { type }),
         delay: delay,
         duration: duration,
         ease: "easeOut",
@@ -75,7 +88,10 @@ export const slideIn = (direction, type, delay, duration) => {
   };
 };
 
-export const staggerContainer = (staggerChildren, delayChildren) => {
+export const staggerContainer = (
+  staggerChildren?: number,
+  delayChildren?: number
+): Variants => {
   return {
     hidden: {},
     show: {
