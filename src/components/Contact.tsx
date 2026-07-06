@@ -18,6 +18,10 @@ const Contact = () => {
 			>
 				<p className={styles.sectionSubText}>Get in touch</p>
 				<h2 className={styles.sectionHeadText}>Contact.</h2>
+				<p className="text-secondary mt-2">
+					Open to frontend engineering roles — remote with global
+					teams, or on-site and hybrid in Lagos, Nigeria.
+				</p>
 				<div className="flex flex-row flex-wrap justify-start gap-6 my-3">
 					<Link
 						to="mailto:victorbassey767@gmail.com"
@@ -44,7 +48,7 @@ const Contact = () => {
 
 				<div className="text-secondary mt-4">
 					<p className="mb-2">victorbassey767@gmail.com</p>
-					<p>07079563898, 07084804237, Whatsapp: 08180387593</p>
+					<p>Call: 07079563898, Whatsapp: 08180387593</p>
 				</div>
 			</motion.div>
 

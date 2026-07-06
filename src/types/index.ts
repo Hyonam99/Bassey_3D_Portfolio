@@ -33,9 +33,11 @@ export interface Project {
 	name: string;
 	description: string;
 	tags: ProjectTag[];
-	image: string;
-	source_code_link: string;
-	live_link: string;
+	image?: string;
+	source_code_link?: string;
+	live_link?: string;
+	internal?: boolean;
+	company?: string;
 }
 
 export interface ProjectCardProps extends Project {
@@ -48,11 +50,20 @@ export interface ServiceCardProps extends Service {
 
 export interface BallCanvasProps {
 	icon: string;
+	name: string;
 }
 
 export interface WindowSize {
 	innerWidth: number;
 	innerHeight: number;
+}
+
+export interface Certification {
+	title: string;
+	issuer: string;
+	note?: string;
+	status: "Certified" | "In progress";
+	images?: string[];
 }
 
 export type MotionDirection = "left" | "right" | "up" | "down" | "";

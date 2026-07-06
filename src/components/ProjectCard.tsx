@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import { AiOutlineGithub, AiOutlineLink } from "react-icons/ai";
+import { PiBuildings } from "react-icons/pi";
 import type { ProjectCardProps } from "../types";
 
 const ProjectCard = ({
@@ -11,6 +12,8 @@ const ProjectCard = ({
 	image,
 	source_code_link,
 	live_link,
+	internal,
+	company,
 }: ProjectCardProps) => {
 	return (
 		<motion.div variants={fadeIn("up", "spring", 0.5 * index, 0.75)}>
@@ -19,40 +22,67 @@ const ProjectCard = ({
 				// options={{ max: 45, scale: 1, speed: 450 }}
 			>
 				<div className="relative w-full h-[240px]">
-					<img
-						src={image}
-						alt={name}
-						className="w-full h-full object-cover rounded-2xl object-center"
-					/>
+					{image ? (
+						<img
+							src={image}
+							alt={name}
+							className="w-full h-full object-cover rounded-2xl object-center"
+						/>
+					) : (
+						<div className="w-full h-full rounded-2xl bg-primary border border-[#2a2550] flex flex-col justify-center items-center gap-3">
+							<PiBuildings size={44} className="text-secondary" />
+							<p className="text-secondary text-[12px] uppercase tracking-widest m-0">
+								Internal{company ? ` · ${company}` : ""}
+							</p>
+						</div>
+					)}
 					<div className="absolute inset-0 flex flex-col justify-start items-end mt-3 mr-3 card-img_hover gap-1">
-						<a
-							href={source_code_link}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="black-gradient w-9 h-9 rounded-full flex justify-center items-center cursor-pointer"
-						>
-							<AiOutlineGithub size={24} />
-						</a>
-						<a
-							href={live_link}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="black-gradient w-9 h-9 rounded-full flex justify-center items-center cursor-pointer"
-						>
-							<AiOutlineLink size={24} />
-						</a>
+						{internal ? (
+							<span className="text-[10px] uppercase tracking-widest px-2 py-1 rounded border text-[#00cea8] border-[#00cea8] bg-primary">
+								Proprietary
+							</span>
+						) : (
+							<>
+								{source_code_link && (
+									<a
+										href={source_code_link}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="black-gradient w-9 h-9 rounded-full flex justify-center items-center cursor-pointer"
+									>
+										<AiOutlineGithub size={24} />
+									</a>
+								)}
+								{live_link && (
+									<a
+										href={live_link}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="black-gradient w-9 h-9 rounded-full flex justify-center items-center cursor-pointer"
+									>
+										<AiOutlineLink size={24} />
+									</a>
+								)}
+							</>
+						)}
 					</div>
 				</div>
 
 				<div className="mt-4">
-					<a
-						href={live_link}
-						target="_blank"
-						rel="noopener noreferrer"
-						className="text-white font-bold text-[22px] underline"
-					>
-						{name}
-					</a>
+					{live_link ? (
+						<a
+							href={live_link}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-white font-bold text-[22px] underline"
+						>
+							{name}
+						</a>
+					) : (
+						<h3 className="text-white font-bold text-[22px]">
+							{name}
+						</h3>
+					)}
 					<p className="text-secondary text-[14px] mt-2">
 						{description}
 					</p>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hyonam-portfolio.com.ng/sitemap.xml
